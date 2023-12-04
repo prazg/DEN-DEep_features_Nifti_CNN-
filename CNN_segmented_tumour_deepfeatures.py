@@ -45,7 +45,7 @@ model.add(Activation('relu'))  # Add activation function
 model.compile(optimizer='adam', loss='categorical_crossentropy')
 
 # Define the directory that contains the patient folders
-base_dir = r"C:\Users\pg22\OneDrive - King's College London\Documents\PhD Data\UCSF-PDGM-v3\UCSF_PDGM"  # Replace with the actual path
+base_dir = r"C:\Users\Folderpath"  # Replace with the actual path
 
 # Loop over each patient ID folder
 for folder_name in os.listdir(base_dir):
@@ -88,10 +88,9 @@ plt.show()
 # The number of features may vary depending on your model architecture
 # Here we assume the features are of shape (1, 4096)
 
-# https://www.mdpi.com/2075-4418/12/4/1018
 
 #save the feature file# Define the file path where you want to save the features
-features_file_path = r"C:\Users\pg22\OneDrive - King's College London\Documents\PhD Data\features.npy"
+features_file_path = r"C:\Users\features.npy"
 
 # Save the features to the file
 np.save(features_file_path, features)
