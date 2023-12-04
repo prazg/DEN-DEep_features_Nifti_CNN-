@@ -1,3 +1,5 @@
+# CopyRight Prajwal Ghimire https://github.com/prazg/Deep-Features-Nifti-Network-DEN
+
 import os
 import nibabel as nib
 import numpy as np
@@ -89,7 +91,7 @@ plt.show()
 # Here we assume the features are of shape (1, 4096)
 
 
-#save the feature file# Define the file path where you want to save the features
+#save the feature file # Define the file path where you want to save the features
 features_file_path = r"C:\Users\features.npy"
 
 # Save the features to the file
