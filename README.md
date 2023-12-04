@@ -1,5 +1,5 @@
 # Deep Features Nifti Network (DEN)
-This repository defines a sequential Convolutional Neural Network (CNN) model that extracts deep features from Nifti MRI files of segmented glioblastoma tumours
+This repository defines a sequential Convolutional Neural Network (CNN) model (17 layers) that extracts deep features from Nifti MRI files of segmented glioblastoma tumours
 ![DENnetwork](https://github.com/prazg/Deep-Features-Nifti-Network-DEN/assets/107046434/960b9016-a6d6-45d0-820d-73375297e4d8)
 
 Here are the key characteristics of this CNN model:
@@ -31,7 +31,7 @@ Here are the key characteristics of this CNN model:
 9.	Input Shape:
 •	The model expects an input shape of 224×224×1224×224×1, suitable for grayscale images of size 224x224 pixels.
 
-Inspiration: https://www.mdpi.com/2075-4418/12/4/1018 (Basic Architecture was inspired by this paper: they donot provide any code for the network)
+Inspiration:LeNet Architecture (25 layers)
 
 
 Copyright: Prajwal Ghimire
