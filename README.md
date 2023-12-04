@@ -31,7 +31,7 @@ Here are the key characteristics of this CNN model:
 9.	Input Shape:
 •	The model expects an input shape of 224×224×1224×224×1, suitable for grayscale images of size 224x224 pixels.
 
-Inspiration: https://www.mdpi.com/2075-4418/12/4/1018 (Basic Architecture was inpired by this paper: they donot provide any code for the network)
+Inspiration: https://www.mdpi.com/2075-4418/12/4/1018 (Basic Architecture was inspired by this paper: they donot provide any code for the network)
 
 
 Copyright: Prajwal Ghimire
