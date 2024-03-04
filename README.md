@@ -29,7 +29,7 @@ Here are the key characteristics of this CNN model:
 •	The extracted features are saved as a NumPy array to a specified file path.
 
 9.	Input Shape:
-•	The model expects an input shape of 224×224×1224×224×1, suitable for grayscale images of size 224x224 pixels.
+•	The model expects an input shape of 224×224×1, suitable for grayscale images of size 224x224 pixels.
 
 Inspiration:LeNet Architecture (25 layers)
 
